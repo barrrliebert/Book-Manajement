@@ -120,39 +120,38 @@
                                         <label for="addIdBuku"
                                             class="block text-sm font-medium text-gray-700">ID</label>
                                         <input type="text" name="id_buku" id="addID"
-                                            class="form-input rounded-md shadow-sm mt-1 block w-full" required>
+                                            class="form-input rounded-md shadow-sm border border-gray-300 mt-1 block w-full" required>
                                     </div>
                                     <div class="mb-4">
                                         <label for="addPenerbit"
                                             class="block text-sm font-medium text-gray-700">Publisher</label>
                                         <input type="text" name="penerbit" id="addPenerbit"
-                                            class="form-input rounded-md shadow-sm mt-1 block w-full" required>
+                                            class="form-input rounded-md shadow-sm border border-gray-300 mt-1 block w-full" required>
                                     </div>
                                     <div class="mb-4">
                                         <label for="addNamaBuku" class="block text-sm font-medium text-gray-700">Book
                                             Name</label>
                                         <input type="text" name="nama_buku" id="addNamaBuku"
-                                            class="form-input rounded-md shadow-sm mt-1 block w-full" required>
+                                            class="form-input rounded-md shadow-sm border border-gray-300 mt-1 block w-full" required>
                                     </div>
                                     <div class="mb-4">
                                         <label for="addKategori"
                                             class="block text-sm font-medium text-gray-700">Category</label>
                                         <input type="text" name="kategori" id="addKategori"
-                                            class="form-input rounded-md shadow-sm mt-1 block w-full" required>
+                                            class="form-input rounded-md shadow-sm border border-gray-300 mt-1 block w-full" required>
                                     </div>
                                     <div class="mb-4">
                                         <label for="addHarga"
                                             class="block text-sm font-medium text-gray-700">Price</label>
                                         <input type="number" name="harga" id="addHarga"
-                                            class="form-input rounded-md shadow-sm mt-1 block w-full" required>
+                                            class="form-input rounded-md shadow-sm border border-gray-300 mt-1 block w-full" required>
                                     </div>
                                     <div class="mb-4">
                                         <label for="addStok"
                                             class="block text-sm font-medium text-gray-700">Stock</label>
                                         <input type="number" name="stok" id="addStok"
-                                            class="form-input rounded-md shadow-sm mt-1 block w-full" required>
+                                            class="form-input rounded-md shadow-sm  border border-gray-300 mt-1 block w-full" required>
                                     </div>
-                                    <!-- Add more input fields as needed -->
                                     <div class="flex items-center justify-end mt-4">
                                         <button type="button" onclick="closeAddModal()"
                                             class="bg-white text-gray-700 px-4 py-2 border border-gray-300 rounded-md shadow-sm">Cancel</button>
@@ -180,37 +179,35 @@
                             <h3 class="text-lg leading-6 font-medium text-gray-900">Edit Book</h3>
                         </div>
                         <div class="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
-                            <!-- Your form for editing a book goes here -->
                             <form id="editForm" method="post">
-                                <!-- Example: -->
                                 <input type="hidden" name="edit" id="editId">
                                 <div class="mb-4">
                                     <label for="editPenerbit"
                                         class="block text-sm font-medium text-gray-700">Publisher</label>
                                     <input type="text" name="penerbit" id="editPenerbit"
-                                        class="form-input rounded-md shadow-sm mt-1 block w-full" required>
+                                        class="form-input rounded-md shadow-sm mt-1 block w-full border border-gray-300" required>
                                 </div>
                                 <div class="mb-4">
                                     <label for="editNamaBuku" class="block text-sm font-medium text-gray-700">Book
                                         Name</label>
                                     <input type="text" name="nama_buku" id="editNamaBuku"
-                                        class="form-input rounded-md shadow-sm mt-1 block w-full" required>
+                                        class="form-input rounded-md shadow-sm mt-1 block w-full border border-gray-300" required>
                                 </div>
                                 <div class="mb-4">
                                     <label for="editKategori"
                                         class="block text-sm font-medium text-gray-700">Category</label>
                                     <input type="text" name="kategori" id="editKategori"
-                                        class="form-input rounded-md shadow-sm mt-1 block w-full" required>
+                                        class="form-input rounded-md shadow-sm mt-1 block w-full border border-gray-300" required>
                                 </div>
                                 <div class="mb-4">
                                     <label for="editHarga" class="block text-sm font-medium text-gray-700">Price</label>
                                     <input type="number" name="harga" id="editHarga"
-                                        class="form-input rounded-md shadow-sm mt-1 block w-full" required>
+                                        class="form-input rounded-md shadow-sm mt-1 block w-full border border-gray-300" required>
                                 </div>
                                 <div class="mb-4">
                                     <label for="editStok" class="block text-sm font-medium text-gray-700">Stock</label>
                                     <input type="number" name="stok" id="editStok"
-                                        class="form-input rounded-md shadow-sm mt-1 block w-full" required>
+                                        class="form-input rounded-md shadow-sm mt-1 block w-full border border-gray-300" required>
                                 </div>
                                 <!-- Add more input fields as needed -->
                                 <div class="flex items-center justify-end mt-4">

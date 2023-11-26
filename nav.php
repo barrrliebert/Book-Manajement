@@ -19,7 +19,7 @@ if (isset($_GET['search'])) {
 
 
     <form action="index.php" method="GET" class="mb-4 flex max-w-md mr-2 mt-3">
-        <input type="text" name="search" placeholder="Search by book name" class="p-2 border rounded-full w-full mr-2 shadow-inner px-10">
+        <input type="text" name="search" placeholder="Search by book name" class="p-2 border rounded-full w-full mr-2 shadow-inner shadow-md px-10">
         <button type="submit" class="bg-blue-500 text-white p-2 rounded-full px-4">Search</button>
     </form>
 </div>
