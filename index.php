@@ -31,7 +31,7 @@ $result = mysqli_query($mysqli, $query);
 
 <body style="font-family: 'Poppins', sans-serif;" class="font-sans bg-gray-100 p-4">
     <div class="container mx-auto">
-        <h1 class="text-6xl font-bold mt-10 mb-10 text-center text-red-900">Books</h1>
+        <h1 class="text-6xl font-bold mt-10 mb-10 text-center text-red-900">Books - Home</h1>
 
     <!-- Display Books -->
     <table class="table-auto w-50% mx-auto mt-10">

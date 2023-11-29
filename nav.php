@@ -1,19 +1,9 @@
 <?php
-if (isset($_GET['search'])) {
-    $search = $_GET['search'];
-    $query = "SELECT * FROM buku WHERE 
-            nama_buku LIKE '%$search%' OR 
-            id_buku LIKE '%$search%' OR 
-            penerbit LIKE '%$search%' OR 
-            kategori LIKE '%$search%'";
-} else {
-    $query = "SELECT * FROM buku";
-}
 ?>
 <div class="bg-white p-5 flex justify-between items-center shadow-lg">
 <nav class="space-x-4 ml-2">
     <a class="text-lg text-red-800 hover:text-red-900 hover:underline hover:shadow-lg" href="index.php">HOME</a>
-    <a class="text-lg text-red-800 hover:text-red-900 hover:underline hover:shadow-lg" href="admin.php">ADMIN</a>
+    <a class="text-lg text-red-800 hover:text-red-900 hover:underline hover:shadow-lg" href="login.php">ADMIN</a>
     <a class="text-lg text-red-800 hover:text-red-900 hover:underline hover:shadow-lg" href="pengadaan.php">PENGADAAN</a>
 </nav>
 

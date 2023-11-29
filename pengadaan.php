@@ -7,15 +7,17 @@ include 'footer.php';
 $result = mysqli_query($mysqli, "SELECT * FROM buku WHERE stok < 10");
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bookstore</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    <title>Pengadaaan</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="font-sans bg-gray-100 p-4">
+
+<body style="font-family: 'Poppins', sans-serif;" class="font-sans bg-gray-100 p-4">
 <div class="container mx-auto">
         <h1 class="text-6xl font-bold mt-10 mb-10 text-center text-red-900">Pengadaan - Book</h1>
 
